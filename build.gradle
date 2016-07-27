@@ -8,7 +8,7 @@ android {
         minSdkVersion 11
         targetSdkVersion 15
         versionCode 1
-        versionName "1.0"
+        versionName "1.0.0"
     }
     buildTypes {
         release {
@@ -60,7 +60,7 @@ libraryDescription = 'release SDK for umeng community (discuss version)'
 siteUrl = 'https://github.com/umeng/umeng_community_discuz'
 gitUrl = 'https://github.com/umeng/umeng_community_discuz.git'
 
-libraryVersion = '1.0.0'
+libraryVersion = '1.0.1'
 
 developerId = 'incomingflyingbrick'
 developerName = 'Ya Zhou'
