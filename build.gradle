@@ -60,7 +60,7 @@ libraryDescription = 'release SDK for umeng community (discuss version)'
 siteUrl = 'https://github.com/umeng/umeng_community_discuz'
 gitUrl = 'https://github.com/umeng/umeng_community_discuz.git'
 
-libraryVersion = '1.0.2'
+libraryVersion = '1.0.0'
 
 developerId = 'incomingflyingbrick'
 developerName = 'Ya Zhou'
