@@ -1,0 +1,75 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion '22.0.1'
+
+    defaultConfig {
+        minSdkVersion 11
+        targetSdkVersion 15
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src']
+            res.srcDirs = ['res']
+            assets.srcDirs = ['assets']
+            jniLibs.srcDirs =  ['libs']
+        }
+    }
+
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+}
+//build script for discuz
+buildscript {
+    repositories {
+        jcenter()
+
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:1.5.0'
+        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.4'
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.3'
+    }
+}
+
+// install script
+
+ext {
+bintrayRepo = 'maven'
+bintrayName = 'umeng_community_discuss_library_project'
+
+publishedGroupId = 'com.umeng.community'
+libraryName = 'umeng-sdk-discuss'
+artifact = 'umeng_community_discuss_library_project'
+
+libraryDescription = 'release SDK for umeng community (discuss version)'
+
+siteUrl = 'https://github.com/umeng/umeng_community_discuz'
+gitUrl = 'https://github.com/umeng/umeng_community_discuz.git'
+
+libraryVersion = '1.0.2'
+
+developerId = 'incomingflyingbrick'
+developerName = 'Ya Zhou'
+developerEmail = 'yazhou.jyz@alibaba-inc.com'
+
+licenseName = 'The Apache Software License, Version 2.0'
+licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+allLicenses = ["Apache-2.0"]
+}
+
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
