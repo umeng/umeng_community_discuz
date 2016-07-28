@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/umeng/Desktop/umeng_community_discuss_library_project/build/intermediates/res/merged/release/color/umeng_switch_textcolor.xml",
+        "source": "/Users/umeng/Desktop/umeng_community_discuss_library_project/res/color/umeng_switch_textcolor.xml"
+    },
+    {
+        "merged": "/Users/umeng/Desktop/umeng_community_discuss_library_project/build/intermediates/res/merged/release/color/umeng_comm_topic_toogle_color.xml",
+        "source": "/Users/umeng/Desktop/umeng_community_discuss_library_project/res/color/umeng_comm_topic_toogle_color.xml"
+    },
+    {
+        "merged": "/Users/umeng/Desktop/umeng_community_discuss_library_project/build/intermediates/res/merged/release/color/umeng_comm_location_text.xml",
+        "source": "/Users/umeng/Desktop/umeng_community_discuss_library_project/res/color/umeng_comm_location_text.xml"
+    },
+    {
+        "merged": "/Users/umeng/Desktop/umeng_community_discuss_library_project/build/intermediates/res/merged/release/color/umeng_comm_toogle_color.xml",
+        "source": "/Users/umeng/Desktop/umeng_community_discuss_library_project/res/color/umeng_comm_toogle_color.xml"
+    }
+]
