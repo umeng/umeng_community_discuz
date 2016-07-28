@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.umeng.community</groupId>
   <artifactId>umeng_community_discuss_library_project</artifactId>
-  <version>1.0.3</version>
+  <version>1.0.4</version>
   <packaging>aar</packaging>
   <name>umeng-sdk-discuss</name>
   <description>release SDK for umeng community (discuss version)</description>
@@ -32,12 +32,6 @@
       <groupId>com.android.support</groupId>
       <artifactId>support-v4</artifactId>
       <version>23.4.0</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.android.support</groupId>
-      <artifactId>recyclerview-v7</artifactId>
-      <version>21.0.+</version>
       <scope>compile</scope>
     </dependency>
   </dependencies>
